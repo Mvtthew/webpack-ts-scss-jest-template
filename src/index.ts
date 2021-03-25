@@ -5,7 +5,9 @@ import "./styles.scss";
 class App {
 	allFine: boolean = true;
 
-	constructor() {
+	constructor() {}
+
+	private init() {
 		console.log(new Package().element);
 	}
 }
