@@ -4,6 +4,7 @@ import "./styles.scss";
 
 class App {
 	allFine: boolean = true;
+	allIsFine: boolean = true;
 
 	constructor() {}
 
