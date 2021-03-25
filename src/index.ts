@@ -9,6 +9,7 @@ class App {
 
 	private init() {
 		console.log(new Package().element);
+		console.log("START");
 	}
 }
 const app = new App();
