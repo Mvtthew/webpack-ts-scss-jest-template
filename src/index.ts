@@ -3,9 +3,10 @@ import Package from "./package";
 import "./styles.scss";
 
 class App {
+	allFine: boolean = true;
+
 	constructor() {
-		const elementName = new Package().element;
-		document.querySelector(elementName)!.innerHTML = "123";
+		console.log(new Package().element);
 	}
 }
 const app = new App();
