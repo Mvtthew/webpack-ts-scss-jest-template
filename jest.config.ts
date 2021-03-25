@@ -10,5 +10,8 @@ module.exports = {
 	preset: "ts-jest",
 	testEnvironment: "node",
 	transformIgnorePatterns: ["node_modules/(?!variables/.*)"],
+	collectCoverage: true,
+	coverageDirectory: "docs/",
+	coverageReporters: ["html"],
 	// ...
 };
